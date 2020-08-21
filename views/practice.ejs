@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title><%=locals.title%></title>
+    </head>
+    <body>
+        <h1>PlayGround</h1>
+        <% for( let i = 1; i < 6; i++ ) { %>
+            <li>
+                <%=i%>
+            </li>
+        <%}%>
+
+        <% if( true ){ %>
+            <h1>It's True!</h1>
+        <%}else{%>
+            <p>It's False :(</p>
+         <%}%>   
+    </body>
+</html>

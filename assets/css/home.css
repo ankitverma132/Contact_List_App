@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+
+#contacts-list-container{
+    margin: auto;
+    width: 25%;
+}
+
+ul{
+    list-style: none;
+    display: contents;
+}
+
+ul > li {
+
+    padding: 0;
+    margin: 0; 
+    text-align: center;
+    background-color: darkblue;
+    height: 35px;
+    color: snow;
+    margin-bottom: 2px;
+}
+
+li:hover{
+    background-color: darkgrey;
+    border-radius: 5%;
+    
+}
+
+li div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+.details div{
+    padding-top: 5px;
+}
+
+a{
+    padding-top: 1px;
+    color: wheat;
+}
+a i:hover{
+    color: red;
+}
+
+
+form{
+    margin: auto;
+    margin-top: 5px;
+    width: 25%;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+form input{
+    width: 140px;
+    border: none;
+    border-bottom: black;
+}
+
+form button{
+    cursor: pointer;
+    width: 40px;
+    border: none;
+    margin-left: 12px;
+    background-color: darkgrey;
+    color: white;
+}
+
+form button:hover{
+    background-color: black;
+}
+
+
